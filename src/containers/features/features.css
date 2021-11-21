@@ -23,7 +23,7 @@
 }
 
 .gpt3__features-heading p {
-    color: var(--orange);
+    color: var(--color-subtext);
     font-size: 16px;
     font-weight: 500;
     line-height: 30px;
