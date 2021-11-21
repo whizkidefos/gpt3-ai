@@ -17,7 +17,7 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
-        <div className='gpt3__navbar'>
+        <div className='gpt3__navbar slide-in-top'>
             <div className="gpt3__navbar-links">
                 <div className="gpt3__navbar-links_logo">
                     <h3>GPT-3.AI</h3>
