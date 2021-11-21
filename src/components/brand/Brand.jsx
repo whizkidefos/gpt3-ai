@@ -3,7 +3,7 @@ import './brand.css';
 
 const Brand = () => {
     return (
-        <section className='gpt3__brand section__margin'>
+        <section className='gpt3__brand section__padding'>
             <figure className="">
                 <img src="images/google.png" alt="google" />
             </figure>

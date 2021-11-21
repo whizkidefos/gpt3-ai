@@ -1,22 +1,34 @@
 import React from 'react';
 import './whatGPT3.css';
-import Features from '../features/Features';
+import { Feature } from '../../components';
 
 const WhatGPT3 = () => {
     return (
         <section className='gpt3__whatgpt3 section__margin' id='whatgpt3'>
             <div className="gpt3__whatgpt3-feature">
-                <Features />
+                <Feature
+                    title='What is GPT-3'
+                    text='We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.'
+                />
             </div>
             <div className="gpt3__whatgpt3-heading">
-                <h2 className="gradient-text">The possibilities are beyond your imagination</h2>
+                <h2 className="gradient__text">The possibilities are beyond your imagination</h2>
                 <p>Explore The Library</p>
             </div>
 
             <div className="gpt3__whatgpt3-container">
-                <Features />
-                <Features />
-                <Features />
+                <Feature
+                    title='Chatbots'
+                    text='We so opinion friends me message as delight. Whole front do of plate heard oh ought.'
+                />
+                <Feature
+                    title='Knowledgebase'
+                    text='At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments.'
+                />
+                <Feature
+                    title='Education'
+                    text='At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments.'
+                />
             </div>
         </section>
     )
